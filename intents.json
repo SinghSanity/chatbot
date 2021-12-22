@@ -1,0 +1,143 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "heyo", "aloha", "nice to meet you"],
+    "responses": ["Hi! If you need general tips, just type in the class, or if you want to find a tutor just mention 'tutoring' or 'help'!"],
+    "context": [""]
+    },
+    {"tag": "thanks",
+        "patterns": ["thanks", "thank you", "ty"],
+        "responses": ["No problem!", "You're welcome!"],
+        "context": [""]
+    },
+    {"tag": "tutoring",
+    "patterns": ["i need tutoring", "help me", "tutoring help", "i need a tutor", "tutor please"],
+    "responses": ["Sure I can find help, what class?", "What class do you need help with?"],
+    "context": [""]
+    },
+    {"tag": "CS100",
+        "patterns": ["cs 100","cs100", "roadmap to computing"],
+        "responses": ["Just ask Professor Nicholson :) \n(In all seriousness, visit GITC 3700. They have tutoring for CS100 every day there. Also look up python concepts online for help.)", "CS100 has tutors available in GITC 3700 every day. Please stop by there! \nThere's also plenty of resources for learning python available online!"],
+        "context": [""]
+    },
+    {"tag": "CS113",
+        "patterns": ["cs 113", "cs113", "introduction to computer science", "intro to comp sci", "intro to computer science"],
+        "responses": ["You should look up Java tutorials and object oriented programming concepts, or visit a tutor or your professor's or TA's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS114",
+        "patterns": ["cs 114", "cs114", "introduction to computer science ii", "introduction to computer science 2", "intro to comp sci 2"],
+        "responses": ["You should look up the basics for data structures and algorithms, and possibly the docs for Java. \nAnother tip is to go to your professor's or TA's office hours, or visit a YWCC tutor in GITC 3700."],
+        "context": [""]
+    },
+    {"tag": "CS241",
+        "patterns": ["cs 241", "cs241", "foundations of computer science i", "foundations of computer science 1", "foundations of computer science", "foundations of comp sci"],
+        "responses": ["This class is more discrete math based. I recommend going to either the math tutoring center or your professor's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS280",
+        "patterns": ["cs 280", "cs280", "programming language concepts"],
+        "responses": ["This is a harder class. I recommend the following:\n 1) Brush up on C++ concepts\n 2) Go to your professor's or TA's office hours\n 3) Visit a YWCC tutor."],
+        "context": [""]
+    },
+    {"tag": "CS288",
+        "patterns": ["cs 288", "cs288", "intensive programming in linux"],
+        "responses": ["This is an intensive class. I recommend the following:\n 1) Read 'The C Programming Language' book\n 2) Go over a shell scripting tutorial\n 3) Go to your professor's or TA's office hours\n 4) Visit a YWCC tutor."],
+        "context": [""]
+    },
+    {"tag": "CS301",
+        "patterns": ["cs 301", "cs301", "introduction to data science"],
+        "responses": ["I recommend going to your professor's or TA's office hours, or finding youtube videos related to data science topics."],
+        "context": [""]
+    },
+    {"tag": "CS331",
+        "patterns": ["cs 331", "cs331", "database system design & mgmt", "database system design and mgmt","database system design and management", "database system design & management"],
+        "responses": ["You should read up on SQL documemtation, or visit the w3schools site for SQL related queries."],
+        "context": [""]
+    },
+    {"tag": "CS332",
+        "patterns": ["cs 332", "cs332", "principles of operating systems", "operating systems"],
+        "responses": ["This class is taught differntly depending on the professor. If you need help, find a YWCC tutor, or go to your professor's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS337",
+        "patterns": ["cs 337", "cs337", "performance modeling in computing", "performance modeling"],
+        "responses": ["This is an elective class. The best bet is to go to your professor's office hours, or contact the TA if there is one."],
+        "context": [""]
+    },
+    {"tag": "CS341",
+        "patterns": ["cs 341", "cs341", "foundations of computer science ii", "foundations of computer science 2"],
+        "responses": ["This class is more discrete math based. I recommend going to either the math tutoring center or your professor's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS350",
+        "patterns": ["cs 350", "cs350", "intro to computer systems", "assembly"],
+        "responses": ["This is a hard class. I recommend the following:\n 1) Read up on assembly code, memory management, hexadecimal notation, and C code. \n 2) Go to your professor's or TA's office hours\n 3) Visit a YWCC tutor."],
+        "context": [""]
+    },
+    {"tag": "CS351",
+        "patterns": ["cs 351", "cs351", "introduction to cybersecurity", "intro to cybersecurity", "cybersecurity"],
+        "responses": ["Make sure to look up key cybersecurity topics, go over lecture materials, and go to your professor's or TA's office hours for more help."],
+        "context": [""]
+    },
+    {"tag": "CS356",
+        "patterns": ["cs 356", "cs356", "introduction to computer networks", "computer networks", "networks", "networking"],
+        "responses": ["Make sure to look over network related resources, read over lecture notes and books, and go to your professor's or TA's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS370",
+        "patterns": ["cs 370", "cs370", "introduction to artificial intelligence", "intro to ai", "artificial intelligence", "ai"],
+        "responses": ["This is an elective class, and taught differently depending on the professor. \nTry visting your professor's or TA's office hours, look over AI related libraries, or watch some videos on YouTube."],
+        "context": [""]
+    },
+    {"tag": "CS388",
+        "patterns": ["cs 388", "cs388", "android application development", "andriod", "andriod development", "android dev"],
+        "responses": ["This is an elective class. Look over the Codepath cirriculum, look online for Andriod resources, or go to your professor's or TA's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS433",
+        "patterns": ["cs 433", "cs433", "introduction to linux kernel programming"],
+        "responses": ["This is a tough elective class. Your best bet is to go to your professor's or TA's office hours if you need help."],
+        "context": [""]
+    },
+    {"tag": "CS434",
+        "patterns": ["cs 434", "cs434", "advanced database systems"],
+        "responses": ["This is an elective class. It goes more in depth the database systems. \nYou should read up on SQL documemtation, or visit the w3schools site for SQL related queries. \nAlso visit your professor's or TA's office hours for more help."],
+        "context": [""]
+    },
+    {"tag": "CS435",
+        "patterns": ["cs 435", "cs435", "advanced data structures and algorithm design", "data structures and algorithms"],
+        "responses": ["You should read up on data structures and algorithms, and go over discrete math concepts such as proofs. \nAlso visit your professor's or TA's office hours for more help, or a YWCC tutor."],
+        "context": [""]
+    },
+    {"tag": "CS438",
+        "patterns": ["cs 438", "cs438", "interactive computer graphics", "computer graphics"],
+        "responses": ["This is an elective class. Look over WebGL documentation and tutorials, or visit your professor's or TA's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS482",
+        "patterns": ["cs 482", "cs482", "data mining"],
+        "responses": ["This is an elective class. Look over data science resources, and visit your professor's or TA's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS485",
+        "patterns": ["cs 485", "cs485", "selected topics in cs", "selected topics", "special topics"],
+        "responses": ["This is a selected topics class and each class varies on the topic. If you need help, visit your professor's or TA's office hours."],
+        "context": [""]
+    },
+    {"tag": "CS490",
+        "patterns": ["cs 490", "cs490", "guided design in software engineering"],
+        "responses": ["Look over PHP, HTML, CSS, JavaScript, and SQL, or other technologies you choose to use. Also visit your professor's office hours for help."],
+        "context": [""]
+    },
+    {"tag": "CS491",
+        "patterns": ["cs 491", "cs491", "senior project", "capstone"],
+        "responses": ["Reach out to the Professor or the Executive team for help."],
+        "context": [""]
+    },
+    {"tag": "noresponse",
+    "patterns": ["", "cs"],
+    "responses": ["Sorry, I didn't understand what you said. \nYou could have entered a class that didn't exist or not in the CS curriculum, or something that I am unable to respond to."],
+    "context": [""]
+    }
+]
+}
